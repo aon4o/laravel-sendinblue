@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "aon2003/laravel-sendinblue",
+    "description": "Laravel wrapper for SendInBlue's PHP API package.",
     "keywords": [
-        ":vendor_name",
+        "aon2003",
         "laravel",
-        ":package_slug"
+        "laravel-sendinblue"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/aon2003/laravel-sendinblue",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Alex Naida",
+            "email": "a.o.naidenov@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Aon2003\\LaravelSendInBlue\\": "src/",
+            "Aon2003\\LaravelSendInBlue\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Aon2003\\LaravelSendInBlue\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Aon2003\\LaravelSendInBlue\\LaravelSendInBlueServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelSendInBlue": "Aon2003\\LaravelSendInBlue\\Facades\\LaravelSendInBlue"
             }
         }
     },

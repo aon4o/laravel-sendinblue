@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Aon2003\LaravelSendInBlue\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelSendInBlueCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-sendinblue';
 
     public $description = 'My command';
 
