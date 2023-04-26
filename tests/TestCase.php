@@ -2,9 +2,9 @@
 
 namespace Aon2003\LaravelSendInBlue\Tests;
 
+use Aon2003\LaravelSendInBlue\LaravelSendInBlueServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Aon2003\LaravelSendInBlue\LaravelSendInBlueServiceProvider;
 
 class TestCase extends Orchestra
 {
