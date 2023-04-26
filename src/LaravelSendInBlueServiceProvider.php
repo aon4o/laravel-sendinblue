@@ -2,9 +2,9 @@
 
 namespace Aon2003\LaravelSendInBlue;
 
+use Aon2003\LaravelSendInBlue\Commands\LaravelSendInBlueCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Aon2003\LaravelSendInBlue\Commands\LaravelSendInBlueCommand;
 
 class LaravelSendInBlueServiceProvider extends PackageServiceProvider
 {
