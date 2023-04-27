@@ -15,7 +15,6 @@ class LaravelSendInBlue extends Facade
     /**
      * Get the registered name of the component.
      *
-     * @return string
      *
      * @throws RuntimeException
      */
@@ -23,6 +22,4 @@ class LaravelSendInBlue extends Facade
     {
         return \Aon2003\LaravelSendInBlue\LaravelSendInBlue::class;
     }
-
-
 }

@@ -14,6 +14,7 @@ use SendinBlue\Client\Model\GetAccount;
 class Account extends BaseAPI
 {
     protected AccountApi $api;
+
     public function __construct()
     {
         parent::__construct();
