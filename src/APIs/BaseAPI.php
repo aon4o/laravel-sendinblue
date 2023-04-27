@@ -20,9 +20,6 @@ class BaseAPI
             ->setApiKey('api-key', config('sendinblue.api.key'));
     }
 
-    /**
-     * @return Client
-     */
     protected function getClient(): Client
     {
         return new Client();

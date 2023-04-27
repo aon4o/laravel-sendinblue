@@ -9,5 +9,4 @@ namespace Aon2003\LaravelSendInBlue\APIs;
  */
 class Lists
 {
-
 }
