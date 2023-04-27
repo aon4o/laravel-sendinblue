@@ -18,8 +18,8 @@ class LaravelSendInBlueServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-sendinblue')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-sendinblue_table')
+//            ->hasViews()
+//            ->hasMigration('create_laravel-sendinblue_table')
             ->hasCommand(LaravelSendInBlueCommand::class);
     }
 }
