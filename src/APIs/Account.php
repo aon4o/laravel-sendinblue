@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Aon2003\LaravelSendInBlue\APIs;
 
+use Aon2003\LaravelSendInBlue\Objects\ErrorResponse;
 use SendinBlue\Client\Api\AccountApi;
 use SendinBlue\Client\ApiException;
 use SendinBlue\Client\Model\GetAccount;
@@ -26,18 +27,16 @@ class Account extends BaseAPI
     }
 
     /**
-     * @return GetAccount|void
+     * Get your account information, plan and credits details.
+     *
+     * @return ErrorResponse|GetAccount
      */
-    public function get()
+    public function get(): ErrorResponse|GetAccount
     {
         try {
             return $this->api->getAccount();
         } catch (ApiException $exception) {
-            dd(
-                $exception->getCode(),
-                $exception->getMessage(),
-                $exception->getResponseBody(),
-            );
+            return $this->returnError($exception);
         }
     }
 }
