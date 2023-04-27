@@ -32,9 +32,6 @@ use Aon2003\LaravelSendInBlue\APIs\WhatsAppCampaigns;
 
 class LaravelSendInBlue
 {
-    /**
-     * @return Account
-     */
     public static function account(): Account
     {
         return new Account();
