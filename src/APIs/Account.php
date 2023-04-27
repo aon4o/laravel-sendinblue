@@ -20,10 +20,7 @@ class Account extends BaseAPI
     {
         parent::__construct();
 
-        $this->api = new AccountApi(
-            $this->getClient(),
-            $this->config
-        );
+        $this->api = new AccountApi($this->getClient(), $this->config);
     }
 
     /**

@@ -29,7 +29,7 @@ class BaseAPI
      */
     protected function getClient(): Client
     {
-        return new Client();
+        return config('sendinblue.api.client', new Client());
     }
 
     /**
