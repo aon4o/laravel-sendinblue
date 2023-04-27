@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Aon2003\LaravelSendInBlue;
 
 use Aon2003\LaravelSendInBlue\Commands\LaravelSendInBlueCommand;
@@ -8,6 +10,10 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class LaravelSendInBlueServiceProvider extends PackageServiceProvider
 {
+    /**
+     * @param Package $package
+     * @return void
+     */
     public function configurePackage(Package $package): void
     {
         /*
