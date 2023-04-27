@@ -1,9 +1,12 @@
 # Laravel wrapper for SendInBlue's PHP API package.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/aon2003/laravel-sendinblue.svg?style=flat-square)](https://packagist.org/packages/aon2003/laravel-sendinblue)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/aon2003/laravel-sendinblue.svg?logo=packagist&style=flat-square)](https://packagist.org/packages/aon2003/laravel-sendinblue)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/aon2003/laravel-sendinblue/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/aon2003/laravel-sendinblue/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/aon2003/laravel-sendinblue/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/aon2003/laravel-sendinblue/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/aon2003/laravel-sendinblue.svg?style=flat-square)](https://packagist.org/packages/aon2003/laravel-sendinblue)
+[![Total Downloads](https://img.shields.io/packagist/dt/aon2003/laravel-sendinblue.svg?logo=packagist&style=flat-square)](https://packagist.org/packages/aon2003/laravel-sendinblue)
+![GitHub Repo stars](https://img.shields.io/github/stars/aon2003/laravel-sendinblue?logo=github&style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/aon2003/laravel-sendinblue?logo=github&style=flat-square)
+![GitHub](https://img.shields.io/github/license/aon2003/laravel-sendinblue?style=flat-square)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
