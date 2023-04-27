@@ -48,11 +48,17 @@ class LaravelSendInBlue
         return new Attributes();
     }
 
+    /**
+     * @return Companies
+     */
     public static function companies(): Companies
     {
         return new Companies();
     }
 
+    /**
+     * @return Contacts
+     */
     public static function contacts(): Contacts
     {
         return new Contacts();
@@ -93,7 +99,7 @@ class LaravelSendInBlue
     /**
      * @return EmailCampaigns
      */
-    public static function email_capaigns(): EmailCampaigns
+    public static function emailCampaigns(): EmailCampaigns
     {
         return new EmailCampaigns();
     }
@@ -117,7 +123,7 @@ class LaravelSendInBlue
     /**
      * @return InboundParsing
      */
-    public static function inbound_parsing(): InboundParsing
+    public static function inboundParsing(): InboundParsing
     {
         return new InboundParsing();
     }
@@ -133,7 +139,7 @@ class LaravelSendInBlue
     /**
      * @return MasterAccount
      */
-    public static function master_account(): MasterAccount
+    public static function masterAccount(): MasterAccount
     {
         return new MasterAccount();
     }
@@ -173,7 +179,7 @@ class LaravelSendInBlue
     /**
      * @return SMSCampaigns
      */
-    public static function sms_campaigns(): SMSCampaigns
+    public static function smsCampaigns(): SMSCampaigns
     {
         return new SMSCampaigns();
     }
@@ -189,7 +195,7 @@ class LaravelSendInBlue
     /**
      * @return TransactionalEmails
      */
-    public static function transactional_emails(): TransactionalEmails
+    public static function transactionalEmails(): TransactionalEmails
     {
         return new TransactionalEmails();
     }
@@ -197,7 +203,7 @@ class LaravelSendInBlue
     /**
      * @return TransactionalSMS
      */
-    public static function transactional_sms(): TransactionalSMS
+    public static function transactionalSMS(): TransactionalSMS
     {
         return new TransactionalSMS();
     }
@@ -205,7 +211,7 @@ class LaravelSendInBlue
     /**
      * @return TransactionalWhatsApp
      */
-    public static function transactional_whatsapp(): TransactionalWhatsApp
+    public static function transactionalWhatsApp(): TransactionalWhatsApp
     {
         return new TransactionalWhatsApp();
     }
@@ -221,7 +227,7 @@ class LaravelSendInBlue
     /**
      * @return WhatsAppCampaigns
      */
-    public static function whatsapp_campaigns(): WhatsAppCampaigns
+    public static function whatsAppCampaigns(): WhatsAppCampaigns
     {
         return new WhatsAppCampaigns();
     }
